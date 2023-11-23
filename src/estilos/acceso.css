@@ -1,0 +1,52 @@
+.contenedor {
+    border: solid 1px #f0eded;
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px #ccc;
+    color: #000000;
+    font-family: Arial;
+}
+
+.titulo {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.caja-correo{
+    font-size: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    outline: none;
+    margin-top: 10px;
+}
+input::placeholder{
+    color: #d33dd3;
+}
+.agrupador-correo{
+    margin-top :20px ;
+    text-align:none;
+}
+.agrupador-boton{
+    margin-top : 30px;
+}
+.boton-aceptar{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color:rgba(208, 122, 219, 0.664);
+    padding :10px;
+    cursor:pointer;
+}
+.link-recuperar{
+    color:hsla(295, 100%, 88%, 0.925);
+    display: block;
+}
